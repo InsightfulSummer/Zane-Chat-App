@@ -1,6 +1,7 @@
 const consola = require('consola');
 const { Nuxt, Builder } = require('nuxt');
 const { app, server } = require('./app');
+const cool = require('cool-ascii-faces');
 
 const config = require('../nuxt.config.js');
 config.dev = process.env.NODE_ENV !== 'production';
