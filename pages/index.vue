@@ -43,7 +43,6 @@
               color="primary"
               class="mt-3"
               type="submit"
-
             >
               Submit
             </v-btn>
