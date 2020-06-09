@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-chat-app",
+  "name": "Zane-Chat-App",
   "version": "1.0.0",
-  "description": "Simple chat on Nuxt.js",
-  "author": "Petr Borul",
+  "description": "Chat app with Nuxt.js",
+  "author": "Zane Chiang",
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
