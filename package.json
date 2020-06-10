@@ -1,7 +1,7 @@
 {
-  "name": "Zane-Chat-App",
+  "name": "Zane-chat-app",
   "version": "1.0.0",
-  "description": "Chat app deployed with Heroku",
+  "description": "chat app using nuxt",
   "author": "Zane Chiang",
   "private": false,
   "scripts": {
