@@ -7,6 +7,14 @@ class UsersDB {
     this.users = [...this.users, user];
   }
 
+  getUsersArray() {
+    return this.users;
+  }
+
+  getUsersArrayLength() {
+    return this.users.length;
+  }
+
   getUser(id) {
     return this.users.find((user) => user.id === id);
   }
@@ -18,7 +26,7 @@ class UsersDB {
   removeUser(id) {
     this.users = this.users.filter((user) => user.id !== id);
   }
-  
+
   setTypingStatus(id, typingStatus) {
     const index = this.users.findIndex((user) => user.id === id);
     this.users[index].typingStatus = typingStatus;

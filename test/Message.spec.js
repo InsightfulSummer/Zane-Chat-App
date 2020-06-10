@@ -5,6 +5,3 @@ describe('Message.vue', () => {
         expect(true).toBe(true);
     });
 });
-
-
-
