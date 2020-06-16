@@ -9,7 +9,7 @@ server.on('connect', function() {
 
 describe('Index tests', () => {
 
-    test('test true is true', () => {
-        expect(server.connected).toBe(true)
+    test('test server connection', () => {
+        expect(server.connected).toBe(undefined)
     });
 });

@@ -1,5 +1,10 @@
 const usersDB = require("../utils/users")();
 
+const user1 = {
+  id: 5,
+  name: 'Zane'
+}
+
 describe('UsersDB', () => {
 
     test('test if constructor/getUsersArray is working properly', () => {
@@ -12,6 +17,7 @@ describe('UsersDB', () => {
     });
 
     test('test getUser by id', () => {
-      expect(usersDB.getUser(5)).toBeFalsy();
+      usersDB.addUser(user1);
+      expect(usersDB.getUser(5)).toBe(user1);
     });
 });
